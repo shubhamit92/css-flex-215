@@ -1,0 +1,81 @@
+*{
+    margin: 50px;
+}
+
+.title{
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 45px;
+}
+/* Css pseudo elements*/
+/*.title::first-letter{
+    color: blueviolet;
+    font-size: 80px;
+}*/
+
+.title::first-line{
+    color: red;
+}
+
+.title::after{
+    content: 'hi';
+}
+
+.title::before{
+    content: "this is a css before element ";
+    color: green;
+}
+.title::selection{
+    background-color: rgb(238, 238, 155);
+    color: aliceblue;
+}
+/* pseudo classes*/
+ul>li{
+    margin: 0;
+}
+/*ul>li:first-child{
+    color: blueviolet;
+    font-size: 20px;
+}
+ul>li:last-child{
+    background-color: yellowgreen;
+    color: blueviolet;
+}*/
+/*ul>li:nth-child(even){
+    color: blueviolet;
+    font-size: 25px;
+}
+
+ul>li:nth-child(odd){
+    color:green;
+    font-size: 35px;
+    background-color: burlywood;
+}*/
+ul>li:nth-child(3){
+    color: blueviolet;
+    background-color: blue;
+}
+.input:required{
+    background-color: red;
+}
+.required::after{
+    content: "*";
+    color: red;
+}
+.link{
+    text-decoration: none;
+    font-size: 18px;
+    color :aqua
+}
+
+.link:visited{
+    color: yellow;
+    font-size: 23px;
+}
+.link:hover{
+    color: red;
+}
+.link:focus{
+    color: green;
+}
+
