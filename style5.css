@@ -1,0 +1,75 @@
+h1{
+    text-align: center;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.box{
+    width: 100px;
+    height: 100px;
+    background-color: blueviolet;
+    animation-name: vi;
+    animation-duration: 10s;
+    animation-fill-mode: forwards;
+    animation-iteration-count: infinite;
+    
+    
+}
+
+@keyframes vi{
+    0%{
+        
+        margin-left: 200px;
+        border-radius: 50%;
+        background-color: red;
+        transform: rotate(360deg);
+    }
+    25%{
+        margin-left: 400px;
+        border-radius: 50%;
+        background-color: blue;
+        transform: rotate(360deg);
+    }
+    50%{
+        margin-left: 600px;
+        border-radius: 50%;
+        background-color: green;
+        transform: rotate(360deg);
+    }
+    75%{
+        margin-left: 800px;
+        border-radius: 50%;
+        background-color: yellow;
+        transform: rotate(360deg);
+    }
+    100%{
+        margin-left: 1000px;
+        border-radius: 50%;
+        background-color: red;
+        transform: rotate(360deg);
+    }
+   
+}
+
+
+.card{
+    width: 300px;
+    border: 1px solid lightgrey;
+    border-radius: 12px;
+    padding: 10px;
+}
+.img-card{
+    width: 100%;
+    border-radius: 10px;
+}
+.btn{
+    background-color: red;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 10px;
+    
+}
+
+.card:hover{
+    transform: rotate(6deg);
+}
