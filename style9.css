@@ -1,0 +1,270 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap')
+body{
+    margin: 0;
+    font-family: "Roboto", sans-serif;
+}
+.nav{
+    margin: 0 auto;
+    border-bottom: 1px solid lightgrey;
+    
+    
+}
+.navbar{
+    width: 900px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 auto;
+    padding: 5px 0;
+    
+   
+}
+.logo{
+    text-decoration: none;
+    font-size:25px;
+    font-weight: 400;
+    color: black;
+
+}
+.logo::first-letter{
+    font-size: 45px;
+    color: red;
+    font-weight: 600;
+}
+.nav-links{
+    list-style: none;
+    display: flex;
+    
+    
+}
+.link{
+    text-decoration: none;
+    margin-left: 30px;
+    color: black;
+    font-size: 18px;
+    
+}
+.link:hover{
+    color: rgb(137, 129, 129);
+}
+
+.Nav-buttons{
+    background-color: black;
+    color: white;
+    display: inline-block;
+    padding: 12px 30px;
+    border-radius: 15px;
+    text-decoration: none;
+    font-size: 18px;
+    
+}
+.Nav-buttons:hover{
+    background-color: white;
+    color: black;
+    border-bottom: 1px solid black;
+}
+
+.section{
+    width: 900px;
+    margin: 50px auto;
+   
+   
+}
+
+.hero{
+    width: 800px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+   
+}
+.title{
+    font-size: 40px;
+    margin-bottom: 0;
+}
+.desc{
+    font-size: 19px;
+    
+}
+
+.intro{
+    width: 600px;
+}
+
+.img{
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+   
+}
+@media(max-width:630px){
+    .nav{
+        display: flex;
+        justify-content: center;
+        border-bottom: none;
+    }
+    
+    .navbar{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding: 5px 0;
+    }
+    
+    .nav-links{
+        display: none;
+       }
+.section{
+   
+    margin:  50px auto;
+}
+.hero{
+    width: 90vw;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap-reverse;
+   align-items: center;
+    text-align: center;
+   
+   
+}
+
+.img{
+    width: 40vw;
+    height: 22vh;
+    border-radius: 50%;
+}
+
+.card{
+    width: 83vw;
+   
+}
+
+
+.form{
+    width: 83vw;
+    margin-left: 20px;
+    padding: 5px 10px;
+}
+
+.btn{
+    font-size: 14px;
+    margin: 0;
+}
+.card-flex{
+    display: flex;
+    flex-wrap: wrap;
+    width: 90vw;
+    margin-left: 15px;
+    margin-top: 0;
+}
+.fc{
+    flex-grow: 2;
+}
+
+
+    
+}
+
+.card{
+    padding: 15px 20px;
+    border: 1px solid black;
+    border-radius: 15px;
+    margin: 20px 0;
+}
+
+.card-flex{
+    display: flex;
+    gap: 20px;
+   
+    
+   
+    
+}
+
+.card-flex h2{
+    margin-left: 15px;
+    margin-bottom: 0;
+    margin-top: -3px;
+}
+
+.fc{
+    width: 350px;
+    height: 200px;
+    border: 1px solid lightgray;
+    margin: 70px 0;
+    padding: 10px 15px;
+    border-radius: 15px;
+    background-color: rgb(243, 243, 244);
+    text-align: center;
+    color: black;
+    
+}
+.img-3{
+    width: 120px;
+    border-radius: 50%;
+}
+.card2-flex{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.fc-flex{
+    display: flex;
+    justify-content: center;
+    margin-top: -40px;
+    gap: 20px;
+}
+.fc-2{
+    background-color: whitesmoke;
+}
+
+.fc h2{
+    text-align: center;
+    margin-bottom: 0;
+}
+.form{
+    border: 1px solid lightgray;
+    border-radius: 15px;
+    box-sizing: border-box;
+    padding: 5px 10px;
+}
+.input{
+    margin-top: 10px;
+    width: 100%;
+    box-sizing: border-box;
+    border-radius: 10px;
+    padding: 15px;
+    cursor: pointer;
+    border: none;
+}
+.input:focus,textarea:focus{
+    outline: none;
+    border: 1px solid blueviolet;
+}
+textarea{
+    margin-top: 20px;
+    width: 100%;
+    box-sizing: border-box;
+    border-radius: 10px;
+    padding: 15px;
+}
+
+.form-title{
+    margin-bottom: 0;
+}
+.form p{
+    margin-top: 0;
+}
+.btn{
+    width: 50%;
+    background-color: blueviolet;
+    display: inline-block;
+    color: white;
+    padding: 20px 30px;
+    border-radius: 12px;
+    cursor: pointer;
+    border: none;
+    font-size: 20px;
+    margin: 20px 120px;
+}
